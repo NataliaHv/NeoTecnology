@@ -82,7 +82,7 @@ public class Ws_neotecnology {
         NeoTecnology miNeoTecnology = new NeoTecnology();
         return miNeoTecnology.consultarCincoUltimos();
     }
-   
+   //servicio actualizar
   @GET
   @Path("actualizarUnDocumento/id/{id}/nombre/{nombre}/cédula/{cédula}")
   @Produces({"application/json"})

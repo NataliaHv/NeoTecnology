@@ -135,7 +135,8 @@ public class NeoTecnology {
            // public String accept (final Document document){
                // System.out.print(document.toJson());
                // return cursor.next().toJson();
-        }    
+        }   
+    //servicio actulaizar
         public String actualizarUnDocumento(String id, String nombre, String cédula) {
         //Creacion del cliente para conectar al servidor remoto
         MongoClient empleado;
